@@ -24,7 +24,7 @@ def get_data(threshold):
 
         s = smtplib.SMTP('smtp.gmail.com', 587)
         s.starttls()
-        s.login('jainpeeyush20@gmail.com', 'NotFunny')
+        s.login('user@gmail.com', 'bla')
         s.send_message(msg)
         s.quit()
 
